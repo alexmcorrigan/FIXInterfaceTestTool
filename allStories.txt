@@ -1,0 +1,11 @@
+I want to specify FIX messages to send to a host so I can control the inputs for a scenario.
+I want to specify the expected FIX messages returned from a host in response to my specified message submissions so I can set the conditions of accepted behaviour.
+I want specified FIX messages to be sent to a host so I can validate the messages sent back in response.
+I want validations of recieved messages to occur in an order I specify so I can check the messages were sent from the host in the expected order.
+I want want the playback of the script to terminate upon any failed validations so I know where a scenario failed
+I want to check all messages returned in response to a submitted messages so I can validate all related behaviour to a single submitted message.ë
+I want to know when a field check does not match my conditions so I can fail a scenario.
+I want to know when a field check does match my conditions so this can contribute to a passed scenario
+I want to specify a template for each message I intend to use for a scenario so I can update messages if the FIX specification changes
+I want to set variables in a script so values can be reused throught the scenario
+I want to use placeholders in a script for unique value generation so I can populate messages with unique valus if required by a host gateway

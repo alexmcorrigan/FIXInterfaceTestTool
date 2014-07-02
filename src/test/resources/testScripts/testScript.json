@@ -1,0 +1,20 @@
+{
+    "scenario": {
+        "id": "scenario_101",
+        "name": "bla",
+        "description": "bla bla bla",
+        "steps": [
+            {
+                "type": "submit",
+                "description": "Entering a simple",
+                "template": "simpleNewOrder",
+                "fields": {
+                    "member": "AMT",
+                    "quantity": "100",
+                    "price": "56.2",
+                    "symbol": "VOD.L"
+                }
+            }
+        ]
+    }
+}
